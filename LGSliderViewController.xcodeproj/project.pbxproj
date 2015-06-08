@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B029C00F1B25636400D60F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B029C00E1B25636400D60F1F /* main.m */; };
+		B029C0121B25636400D60F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B029C0111B25636400D60F1F /* AppDelegate.m */; };
+		B029C0151B25636400D60F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B029C0141B25636400D60F1F /* ViewController.m */; };
+		B029C0181B25636400D60F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B029C0161B25636400D60F1F /* Main.storyboard */; };
+		B029C01A1B25636400D60F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B029C0191B25636400D60F1F /* Images.xcassets */; };
+		B029C01D1B25636400D60F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B029C01B1B25636400D60F1F /* LaunchScreen.xib */; };
+		B029C0291B25636400D60F1F /* LGSliderViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B029C0281B25636400D60F1F /* LGSliderViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B029C0231B25636400D60F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B029C0011B25636400D60F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B029C0081B25636400D60F1F;
+			remoteInfo = LGSliderViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B029C0091B25636400D60F1F /* LGSliderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSliderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B029C00D1B25636400D60F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B029C00E1B25636400D60F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B029C0101B25636400D60F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B029C0111B25636400D60F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B029C0131B25636400D60F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B029C0141B25636400D60F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B029C0171B25636400D60F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B029C0191B25636400D60F1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B029C01C1B25636400D60F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B029C0221B25636400D60F1F /* LGSliderViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSliderViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B029C0271B25636400D60F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B029C0281B25636400D60F1F /* LGSliderViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSliderViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B029C0061B25636400D60F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B029C01F1B25636400D60F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B029C0001B25636400D60F1F = {
+			isa = PBXGroup;
+			children = (
+				B029C00B1B25636400D60F1F /* LGSliderViewController */,
+				B029C0251B25636400D60F1F /* LGSliderViewControllerTests */,
+				B029C00A1B25636400D60F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B029C00A1B25636400D60F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B029C0091B25636400D60F1F /* LGSliderViewController.app */,
+				B029C0221B25636400D60F1F /* LGSliderViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B029C00B1B25636400D60F1F /* LGSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B029C0101B25636400D60F1F /* AppDelegate.h */,
+				B029C0111B25636400D60F1F /* AppDelegate.m */,
+				B029C0131B25636400D60F1F /* ViewController.h */,
+				B029C0141B25636400D60F1F /* ViewController.m */,
+				B029C0161B25636400D60F1F /* Main.storyboard */,
+				B029C0191B25636400D60F1F /* Images.xcassets */,
+				B029C01B1B25636400D60F1F /* LaunchScreen.xib */,
+				B029C00C1B25636400D60F1F /* Supporting Files */,
+			);
+			path = LGSliderViewController;
+			sourceTree = "<group>";
+		};
+		B029C00C1B25636400D60F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B029C00D1B25636400D60F1F /* Info.plist */,
+				B029C00E1B25636400D60F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B029C0251B25636400D60F1F /* LGSliderViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B029C0281B25636400D60F1F /* LGSliderViewControllerTests.m */,
+				B029C0261B25636400D60F1F /* Supporting Files */,
+			);
+			path = LGSliderViewControllerTests;
+			sourceTree = "<group>";
+		};
+		B029C0261B25636400D60F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B029C0271B25636400D60F1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B029C0081B25636400D60F1F /* LGSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B029C02C1B25636400D60F1F /* Build configuration list for PBXNativeTarget "LGSliderViewController" */;
+			buildPhases = (
+				B029C0051B25636400D60F1F /* Sources */,
+				B029C0061B25636400D60F1F /* Frameworks */,
+				B029C0071B25636400D60F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSliderViewController;
+			productName = LGSliderViewController;
+			productReference = B029C0091B25636400D60F1F /* LGSliderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B029C0211B25636400D60F1F /* LGSliderViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B029C02F1B25636400D60F1F /* Build configuration list for PBXNativeTarget "LGSliderViewControllerTests" */;
+			buildPhases = (
+				B029C01E1B25636400D60F1F /* Sources */,
+				B029C01F1B25636400D60F1F /* Frameworks */,
+				B029C0201B25636400D60F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B029C0241B25636400D60F1F /* PBXTargetDependency */,
+			);
+			name = LGSliderViewControllerTests;
+			productName = LGSliderViewControllerTests;
+			productReference = B029C0221B25636400D60F1F /* LGSliderViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B029C0011B25636400D60F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stevenlfg;
+				TargetAttributes = {
+					B029C0081B25636400D60F1F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B029C0211B25636400D60F1F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B029C0081B25636400D60F1F;
+					};
+				};
+			};
+			buildConfigurationList = B029C0041B25636400D60F1F /* Build configuration list for PBXProject "LGSliderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B029C0001B25636400D60F1F;
+			productRefGroup = B029C00A1B25636400D60F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B029C0081B25636400D60F1F /* LGSliderViewController */,
+				B029C0211B25636400D60F1F /* LGSliderViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B029C0071B25636400D60F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B029C0181B25636400D60F1F /* Main.storyboard in Resources */,
+				B029C01D1B25636400D60F1F /* LaunchScreen.xib in Resources */,
+				B029C01A1B25636400D60F1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B029C0201B25636400D60F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B029C0051B25636400D60F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B029C0151B25636400D60F1F /* ViewController.m in Sources */,
+				B029C0121B25636400D60F1F /* AppDelegate.m in Sources */,
+				B029C00F1B25636400D60F1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B029C01E1B25636400D60F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B029C0291B25636400D60F1F /* LGSliderViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B029C0241B25636400D60F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B029C0081B25636400D60F1F /* LGSliderViewController */;
+			targetProxy = B029C0231B25636400D60F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B029C0161B25636400D60F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B029C0171B25636400D60F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B029C01B1B25636400D60F1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B029C01C1B25636400D60F1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B029C02A1B25636400D60F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B029C02B1B25636400D60F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B029C02D1B25636400D60F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSliderViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B029C02E1B25636400D60F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSliderViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B029C0301B25636400D60F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSliderViewController.app/LGSliderViewController";
+			};
+			name = Debug;
+		};
+		B029C0311B25636400D60F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LGSliderViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSliderViewController.app/LGSliderViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B029C0041B25636400D60F1F /* Build configuration list for PBXProject "LGSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B029C02A1B25636400D60F1F /* Debug */,
+				B029C02B1B25636400D60F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B029C02C1B25636400D60F1F /* Build configuration list for PBXNativeTarget "LGSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B029C02D1B25636400D60F1F /* Debug */,
+				B029C02E1B25636400D60F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B029C02F1B25636400D60F1F /* Build configuration list for PBXNativeTarget "LGSliderViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B029C0301B25636400D60F1F /* Debug */,
+				B029C0311B25636400D60F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B029C0011B25636400D60F1F /* Project object */;
+}
