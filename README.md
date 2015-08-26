@@ -1,2 +1,2 @@
-# LGSliderViewControllerDemo
-一个控制视图控制器滑动的Demo
+## 通过UICollectionView实现的多视图之间滑动的效果
+![效果图](effectPicture.png)
